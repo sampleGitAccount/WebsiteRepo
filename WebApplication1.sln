@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22021.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{0AAB4832-0BF9-4DE5-9124-6AEA77F1CBEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E6BBD689-72FE-47BB-AD59-DA0B838AD208}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{7BC9E2DB-C80B-4BF4-A880-EE9F6BF8CCED}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\WebApplication1-WAWS-dev.json = PublishScripts\Configurations\WebApplication1-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AAB4832-0BF9-4DE5-9124-6AEA77F1CBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAB4832-0BF9-4DE5-9124-6AEA77F1CBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAB4832-0BF9-4DE5-9124-6AEA77F1CBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAB4832-0BF9-4DE5-9124-6AEA77F1CBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BC9E2DB-C80B-4BF4-A880-EE9F6BF8CCED} = {E6BBD689-72FE-47BB-AD59-DA0B838AD208}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://oct17testing.tfsbuildhost3.tfsallin.net/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebApplication1\\WebApplication1.csproj
+		SccProjectName1 = WebApplication1
+		SccLocalPath1 = WebApplication1
+	EndGlobalSection
+EndGlobal
